@@ -1,6 +1,7 @@
 /* font-family: 'Ubuntu', sans-serif; 
 font-family: 'Quattrocento Sans', sans-serif;
 */
+/* header */
 .container {
     max-width: 1440px;
     width: 100%;
@@ -50,4 +51,45 @@ header {
     width: 221px;
     border: 3px solid #27187F;
     border-radius: 10px;
+}
+
+/* section */
+.title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    color: #27187F;
+    margin-bottom: 68px;
+}
+
+section {
+    /* display: flex; */
+    background: #DDEAF8;
+    padding: 199px 98px 135px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px 22px;
+}
+
+.card1 {
+    padding: 33px 30px;
+    width: 400px;
+    height: 333px;
+    background: #FFFFFF;
+    border-radius: 10px;
+;
+}
+
+
+.article {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #133B3A;
+    margin-top: 33px;
 }
